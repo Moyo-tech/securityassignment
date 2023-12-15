@@ -1,0 +1,48 @@
+.nav__container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f4870   ;
+    width: auto;
+    position: fixed; 
+    height: 100%;
+  }
+ 
+  .mid__section {
+    margin-top: 15px;
+    display: block;
+  }
+  .link {
+    display: flex;
+    color: #fff;
+    margin: 15px 10px;
+    padding: 10px 10px;
+    gap: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  .link:hover {
+    background: rgba(234, 235, 236, 0.17);
+  }
+  .active {
+    background-color: #ca833b    ;
+  }
+  
+  .icon {
+    font-size: 16px;
+  }
+  .link_text {
+    font-size: 16px;
+  }
+  
+  /* bottom section */
+  .bottom__section {
+    margin-top: auto;
+  }
+main{
+  margin: 20px;
+}
